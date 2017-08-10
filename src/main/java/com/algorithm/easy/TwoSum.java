@@ -1,4 +1,4 @@
-package com.leetcode.easy;
+package com.algorithm.easy;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +11,9 @@ public class TwoSum {
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
         int[] result = twoSum(numbers,target);
-        System.out.println("aa");
+        for (int i = 0;i<result.length;i++){
+            System.out.println(result[i]);
+        }
     }
 
     public static int[] twoSum(int[] numbers, int target) {
