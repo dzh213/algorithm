@@ -4,6 +4,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * Created by donghao on 2018/4/10.
+ * 使用阻塞队列实现消费生产
  */
 public class BlockingQueue {
     private ArrayBlockingQueue queue = new ArrayBlockingQueue(10);

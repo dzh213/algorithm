@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 /**
  * Created by donghao on 2018/4/10.
+ * 非阻塞实现消费生产者
  */
 public class NonBlocking {
     private LinkedList list = new LinkedList();
