@@ -3,7 +3,7 @@ package com.algorithm.offer;
 /**
  * Created by donghao on 2018/4/13.
  * 斐波那契数列
- * f(n) = f(n-1)+f(n-2)......+f(0)
+ * f(n) = f(n-1)+f(n-2)
  * 循环O(n)必递归O(n^2)效率要高递归重复次数太多
  */
 public class Fibonacci {
