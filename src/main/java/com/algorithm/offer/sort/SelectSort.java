@@ -16,7 +16,7 @@ public class SelectSort {
     private static int[] selectSort(int[] nums) {
         for (int i = 0;i<nums.length;i++) {
             int min = i;        //假设当前i为最小
-            for (int j = i+1;j<nums.length;j++) { //从后面的选择出最小的
+            for (int j = i+1;j<nums.length;j++) { //当前元素和从后面的选择出最小的
                 if (nums[min] > nums[j]) {
                     min = j;
                 }
